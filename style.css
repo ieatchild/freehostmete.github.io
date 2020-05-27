@@ -163,7 +163,6 @@ button:hover {
     color: #2f3640;
 }
 
-
 .bloc-presentation-centre {
     display: flex;
     justify-content: center;
@@ -173,12 +172,21 @@ button:hover {
 /* fin de la section creations */
 /* début de la section apropos-main du fichier apropos.html */
 
-#apropos h2, p, b {
+#apropos span, p {
     background-color: #2f3640;
 }
 
-#apropos p, b {
+#apropos span {
+    font-size: 36px;
+}
+
+#apropos b {
+    background-color: #2f3640;
+}
+
+#apropos p {
     color: #fff;
+    background-color: #2f3640;
 }
 
 #apropos img {
@@ -189,6 +197,7 @@ button:hover {
 .bloc-apropos-principal {
     display: flex;
     width: 1104px;
+    background-color: #2f3640;
 }
 
 .bloc-apropos-principal-texte {
@@ -204,23 +213,29 @@ button:hover {
     justify-content: center;
 }
 
-.noir {
-    color: black;
+.vert {
+    color: #2ecc71;
 }
 
 .bleu {
-    color: blue;
+    color: #2980b9;
 }
 
 .jaune {
-    color: yellow;
+    color: #f1c40f;
 }
 
 .rouge {
-    color: red;
+    color: #c0392b;
 }
 
 /* fin de la section apropos-main du fichier apropos.html */
+
+.offres-emplois-bloc {
+    width: 320px;
+    border: 1px solid #fff;
+}
+
 /* section morale */
 
 #morale {
